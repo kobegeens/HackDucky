@@ -35,7 +35,7 @@ STRINGLN Start-Process "https://www.instagram.com/hackclubheistopdenberg/"
 DELAY 1000
 STRINGLN notepad
 DELAY 1000
-STRING
+STRINGLN Hello World!
 
 
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -70,7 +70,7 @@ STRING
    ▐▌▐▌ ▐▌  █  ▐▛▚▖▐▌    ▐▌ ▐▌▐▌ ▐▌▐▌   ▐▌▗▞▘    ▐▌   ▐▌   ▐▌ ▐▌▐▌ ▐▌
    ▐▌▐▌ ▐▌  █  ▐▌ ▝▜▌    ▐▛▀▜▌▐▛▀▜▌▐▌   ▐▛▚▖     ▐▌   ▐▌   ▐▌ ▐▌▐▛▀▚▖
 ▗▄▄▞▘▝▚▄▞▘▗▄█▄▖▐▌  ▐▌    ▐▌ ▐▌▐▌ ▐▌▝▚▄▄▖▐▌ ▐▌    ▝▚▄▄▖▐▙▄▄▖▝▚▄▞▘▐▙▄▞▘
-END_STRING
+END_STRINGLN
 DELAY 5000
 ALT F4
 
