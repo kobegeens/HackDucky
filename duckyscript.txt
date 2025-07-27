@@ -1,12 +1,9 @@
 REM_BLOCK
-    ######################################
-    #                                    #
-    # Title        : Hack Club Invite    #
-    # Author       : example             #
-    # Version      : 1.0                 #
-    # Target       : Windows             #
-    #                                    #
-    ######################################
+    +++++++++++++++++++++++++
+    +   Hack Club invite    +
+    +    by Kobe Geens      +
+    +     for Windows       +
+    +++++++++++++++++++++++++
 END_REM 
 
 
