@@ -1,0 +1,76 @@
+REM_BLOCK
+    ######################################
+    #                                    #
+    # Title        : Hack Club Invite    #
+    # Author       : example             #
+    # Version      : 1.0                 #
+    # Target       : Windows             #
+    #                                    #
+    ######################################
+END_REM 
+
+
+GUI r
+DELAY 1000
+STRINGLN PowerShell
+DELAY 1000
+STRINGLN 
+    Add-Type –AssemblyName System.Speech
+    $SpeechSynthesizer = New-Object –TypeName System.Speech.Synthesis.SpeechSynthesizer
+    $SpeechSynthesizer.Speak('JOIN HACK CLUB')
+END_STRINGLN
+DELAY 1000
+STRINGLN
+    "Hey! Sadly enough, there's currently a Rubber Ducky device in your USB port."
+    "Luckily enough though, we're not installing a virus on your computer."
+    " "
+    "The person who plugged this device in was actually wondering if you were interested in joining our Hack Club."
+    "We are not doing malicious hacks but are a group of computer enthusiasts solving problems in unconventional ways."
+    " "
+    "Each week we get together and build projects, just like this."
+    "You will shortly be redirected to our website, and we hope you're interested."
+END_STRINGLN
+DELAY 5000
+STRINGLN Start-Process "https://www.instagram.com/hackclubheistopdenberg/"
+DELAY 1000
+STRINGLN notepad
+DELAY 1000
+STRING
+
+
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣽⢿⣿⡙⢻⣿⣿⣿⣟⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⠋⠀⠀⠈⠉⠁⠈⢿⣿⡟⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣀⠀⣀⣤⢤⣄⠀⠸⣿⣿⣼⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢺⡿⠃⠹⡿⠻⠀⠀⠀⣹⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣇⣀⡀⠀⠀⠀⠀⢸⡿⢋⡟⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣦⣤⣄⣀⠀⠀⠀⠀⣶⣤⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡟⠒⠚⠉⠀⢀⣠⠜⢻⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣄⡀⠤⠾⠿⡟⠀⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⡇⡆⠀⠀⢨⠇⢀⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⡤⠖⠒⠉⠉⠹⡁⠘⡜⠀⢠⠎⡠⠊⢀⡟⠟⠲⢦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⢠⡞⠋⠉⠉⠀⠀⠀⠀⠀⠀⠱⣄⠈⠾⠟⠉⣠⠔⠉⠀⠀⠀⠀⠉⢿⠿⠷⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⢀⡿⠀⠀⣌⡠⠀⠀⠀⠀⠀⠀⠀⠈⢳⡤⠖⠉⠀⠀⠀⠀⠀⠀⠀⡠⠈⣄⠀⠀⢹⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⣼⠇⠀⠀⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⡼⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⢰⡟⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⣸⠙⣦⣟⣶⣧⡀⠀⠀⠀⠀⠀⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣧⡟⠀⠀⠀⢾⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⢰⠇⠀⠈⢫⡹⣌⢟⣦⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣿⠏⠀⠀⠀⠀⣾⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⣾⠀⠀⢠⡤⢿⣶⣤⣽⣦⣀⣀⠀⠀⠀⠁⠀⠀⣀⣀⣀⠀⠀⠀⣴⣿⡟⠀⠀⠀⠀⢀⡞⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⢸⠀⠀⣠⡶⠋⠁⠀⠀⠀⠀⠉⠛⠾⡏⠛⠻⢥⣀⠀⢹⠒⠒⠒⠻⣿⠁⠀⠀⠀⠀⠀⠀⡾⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⢸⣇⠀⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣦⠀⢸⣄⣠⠤⠴⢿⣷⡀⠀⠀⠀⢀⣼⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠸⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⡤⠖⠛⠋⠉⠀⠀⠀⠀⢸⠟⠿⠀⠀⢀⣸⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠛⠷⣦⣄⠀⠀⣀⣀⣀⣀⣤⣶⠿⢿⡥⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣩⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠉⢹⣿⣟⡋⠁⠀⠉⠙⠛⠛⠛⠛⠛⠷⢾⣭⣗⡲⢮⣗⣶⣦⣴⣤⣤⡾⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡟⣸⣿⣀⣤⣶⠟⠀⠀⢀⣀⣤⣤⣤⣠⠍⠉⠉⠛⠛⠛⢻⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠛⠿⠿⠯⠴⠖⠛⢉⣥⡿⠟⢉⣀⣤⠴⠶⠒⠛⠛⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠀⠀⢀⢀⢀⢀⣀⣀⣀⣀⣀⣀⣀⣀⣈⣉⣉⣉⣉⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠂⡀⠀⠛⠛⣛⢛⠛⠛⠛⠛⠛⠋⠉⠀⠀⠉⠉⠉⠉⠉⠉⠀⠈⠉⠉⠉⠉⠉⠁⠁⠉⠉⠉⠉⠉⠉⣉⣁⣀⠀⡀⠀⠀⠀⣀⡀
+
+   ▗▖ ▗▄▖ ▗▄▄▄▖▗▖  ▗▖    ▗▖ ▗▖ ▗▄▖  ▗▄▄▖▗▖ ▗▖     ▗▄▄▖▗▖   ▗▖ ▗▖▗▄▄▖ 
+   ▐▌▐▌ ▐▌  █  ▐▛▚▖▐▌    ▐▌ ▐▌▐▌ ▐▌▐▌   ▐▌▗▞▘    ▐▌   ▐▌   ▐▌ ▐▌▐▌ ▐▌
+   ▐▌▐▌ ▐▌  █  ▐▌ ▝▜▌    ▐▛▀▜▌▐▛▀▜▌▐▌   ▐▛▚▖     ▐▌   ▐▌   ▐▌ ▐▌▐▛▀▚▖
+▗▄▄▞▘▝▚▄▞▘▗▄█▄▖▐▌  ▐▌    ▐▌ ▐▌▐▌ ▐▌▝▚▄▄▖▐▌ ▐▌    ▝▚▄▄▖▐▙▄▄▖▝▚▄▞▘▐▙▄▞▘
+END_STRING
+DELAY 5000
+ALT F4
+
